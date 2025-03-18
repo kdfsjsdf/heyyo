@@ -10,7 +10,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["SilentAim"] = {
         ['Enabled'] = (true),
         ['Toggle'] = ('T'), --[[ For Target Mode ]]
-        ['Field'] = ('Cirlce'), --[[ Box, Circle ]]
+        ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target (Disabled) ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = (0.135), ['Air'] = (0.135), ['Automated'] = (false), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
@@ -88,8 +88,8 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (130) },
-        ['TriggerBotField'] = { ['Size'] = (5.5) }, --[[ For offbrands ]]
+        ['SilentAimField'] = { ['Size'] = (70) },
+        ['TriggerBotField'] = { ['Size'] = (7) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (8), ['Height'] = (8) }
     },
 }
